@@ -2,13 +2,14 @@ package com.example.palak.instantcourierservice;
 
 
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ShareActionProvider;
 
 
-public class ShareApp {
+public class ShareApp extends AppCompatActivity {
 
     private ShareActionProvider mShareActionProvider;
 
